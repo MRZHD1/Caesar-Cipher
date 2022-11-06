@@ -22,9 +22,6 @@ class Code
   end
 
   def decipher(shift)
-    result = ''
+    self.cipher(-shift)
   end
 end
-
-code = Code.new("What a string!")
-puts code.cipher(5)
